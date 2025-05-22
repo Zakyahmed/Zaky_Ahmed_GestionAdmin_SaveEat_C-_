@@ -1,0 +1,372 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|c:\\users\\ahmed.zaky\\source\\repos\\gestionadmin_saveeat_c#\\gestionadmin_saveeat_c#\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\models\\adminmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\models\\adminmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmaddedituser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmaddedituser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|c:\\users\\ahmed.zaky\\source\\repos\\gestionadmin_saveeat_c#\\gestionadmin_saveeat_c#\\services\\apiservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\services\\apiservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|c:\\users\\ahmed.zaky\\source\\repos\\gestionadmin_saveeat_c#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmusers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmusers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmparametre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmparametre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\services\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\services\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|c:\\users\\ahmed.zaky\\source\\repos\\gestionadmin_saveeat_c#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmassociations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmassociations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|c:\\users\\ahmed.zaky\\source\\repos\\gestionadmin_saveeat_c#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmrestaurants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmrestaurants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmconnexion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmconnexion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmparametre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmparametre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}|GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#.csproj|solutionrelative:gestionadmin_saveeat_c#\\frm_save_eat_admin\\frmvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmParametre.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs [Design]",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:52:27.433Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmAddEditUser.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAwwDABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:10:42.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmAddEditUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.Designer.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.Designer.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.Designer.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.Designer.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAwwCoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:07:14.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Services\\ApiService.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Services\\ApiService.cs",
+              "ViewState": "AgIAAFYCAAAAAAAAAAAUwGgCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:48:48.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminModels.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Models\\AdminModels.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Models\\AdminModels.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Models\\AdminModels.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Models\\AdminModels.cs",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAQwOEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:02:00.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUsers.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs",
+              "ViewState": "AgIAAAwCAAAAAAAAAAAwwBwCAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:30:00.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Services\\ApiServiceManager.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Services\\ApiServiceManager.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Services\\ApiServiceManager.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Services\\ApiServiceManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:27:49.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs [Design]",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:29:57.142Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmValidation.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAUwBUCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:09:34.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmConnexion.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwI8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:22:33.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmUsers.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.Designer.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.Designer.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.Designer.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmUsers.Designer.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAmwHwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:19:30.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmConnexion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs [Design]",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:21:31.724Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmParametre.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmParametre.cs",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAUwH0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:10:55.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAAUwKEBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:41:25.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Services\\Storage.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Services\\Storage.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Services\\Storage.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Services\\Storage.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:32:17.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmRestaurants.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmRestaurants.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmRestaurants.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmRestaurants.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmRestaurants.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAUwCIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:23:35.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmAssociations.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmAssociations.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmAssociations.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmAssociations.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmAssociations.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAUwCwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:39:33.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs [Design]",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:33:22.412Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmConnexion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.Designer.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.Designer.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.Designer.cs",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmConnexion.Designer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAApwDcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:26:22.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmAddEditUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs [Design]",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\FrmAddEditUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:09:04.368Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmValidation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs",
+              "RelativeDocumentMoniker": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs",
+              "ToolTip": "C:\\Users\\ahmed.zaky\\source\\repos\\GestionAdmin_SaveEat_C#\\GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs [Design]",
+              "RelativeToolTip": "GestionAdmin_SaveEat_C#\\Frm_Save_Eat_Admin\\frmValidation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:15:59.212Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

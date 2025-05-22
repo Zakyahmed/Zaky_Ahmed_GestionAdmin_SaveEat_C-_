@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionAdmin_SaveEat_C#", "GestionAdmin_SaveEat_C#\GestionAdmin_SaveEat_C#.csproj", "{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFFD89B-8F85-4E11-87FC-1E896FDF1EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52CD4FD0-1F8B-4C48-A38A-8C7C8501447D}
+	EndGlobalSection
+EndGlobal
