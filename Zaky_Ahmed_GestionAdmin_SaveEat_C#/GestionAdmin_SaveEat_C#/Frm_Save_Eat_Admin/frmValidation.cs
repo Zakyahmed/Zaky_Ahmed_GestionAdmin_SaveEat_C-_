@@ -52,26 +52,27 @@ namespace GestionAdmin_SaveEat_C_
             }
         }
 
-        private void btnOpenFile_Click(object sender, EventArgs e)
+       private void btnOpenFile_Click(object sender, EventArgs e)
+{
+    try
+    {
+        // Utiliser le chemin local téléchargé
+        if (selectedRequest != null && !string.IsNullOrEmpty(selectedRequest.LocalJustificatifPath))
         {
-            try
-            {
-                if (selectedRequest != null && !string.IsNullOrEmpty(selectedRequest.JustificatifPath))
-                {
-                    OpenFile(selectedRequest.JustificatifPath);
-                }
-                else
-                {
-                    MessageBox.Show("Aucun fichier justificatif disponible.", "Information",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erreur lors de l'ouverture du fichier : {ex.Message}",
-                    "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            OpenFile(selectedRequest.LocalJustificatifPath);
         }
+        else
+        {
+            MessageBox.Show("Aucun fichier justificatif disponible.", "Information",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show($"Erreur lors de l'ouverture du fichier : {ex.Message}",
+            "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    }
+}
 
         private void OpenFile(string filePath)
         {
@@ -317,63 +318,68 @@ namespace GestionAdmin_SaveEat_C_
             }
         }
 
-        private void ShowRequestDetails(int requestId)
+        private async void ShowRequestDetails(int requestId)
+{
+    try
+    {
+        selectedRequest = requests.Find(r => r.Id == requestId);
+
+        if (selectedRequest != null)
         {
-            try
+            // Afficher les détails
+            lblDetailsNom.Text = $"Nom: {selectedRequest.Nom}";
+            lblDetailsAdresse.Text = $"Adresse: {selectedRequest.Adresse}";
+            lblDetailsType.Text = $"Type: {selectedRequest.Type}";
+            lblDetailsEmail.Text = $"Email: {selectedRequest.Email}";
+
+            // Télécharger et afficher le justificatif
+            if (selectedRequest.JustificatifId > 0)
             {
-                // Rechercher la demande correspondante
-                selectedRequest = requests.Find(r => r.Id == requestId);
-
-                if (selectedRequest != null)
+                try
                 {
-                    // Afficher les détails
-                    lblDetailsNom.Text = $"Nom: {selectedRequest.Nom}";
-                    lblDetailsAdresse.Text = $"Adresse: {selectedRequest.Adresse}";
-                    lblDetailsType.Text = $"Type: {selectedRequest.Type}";
-                    lblDetailsEmail.Text = $"Email: {selectedRequest.Email}";
-
-                    // Charger l'image du justificatif
-                    try
+                    Cursor.Current = Cursors.WaitCursor;
+                    
+                    // Télécharger le fichier depuis Laravel
+                    var localPath = await apiService.DownloadAndSaveJustificatifAsync(
+                        selectedRequest.JustificatifId, 
+                        selectedRequest.JustificatifFileName ?? "justificatif.pdf"
+                    );
+                    
+                    selectedRequest.LocalJustificatifPath = localPath;
+                    
+                    // Afficher l'image si c'est une image
+                    var extension = Path.GetExtension(localPath).ToLower();
+                    if (extension == ".jpg" || extension == ".jpeg" || extension == ".png" ||
+                        extension == ".gif" || extension == ".bmp")
                     {
-                        if (!string.IsNullOrEmpty(selectedRequest.JustificatifPath) &&
-                            File.Exists(selectedRequest.JustificatifPath))
-                        {
-                            var extension = Path.GetExtension(selectedRequest.JustificatifPath).ToLower();
-                            if (extension == ".jpg" || extension == ".jpeg" || extension == ".png" ||
-                                extension == ".gif" || extension == ".bmp")
-                            {
-                                picJustificatif.Image = Image.FromFile(selectedRequest.JustificatifPath);
-                            }
-                            else
-                            {
-                                // Si ce n'est pas une image, afficher une icône
-                                picJustificatif.Image = null;
-                                picJustificatif.BackColor = Color.LightGray;
-                            }
-                        }
-                        else
-                        {
-                            // Image par défaut si le fichier n'existe pas
-                            picJustificatif.Image = null;
-                            picJustificatif.BackColor = Color.LightGray;
-                        }
+                        picJustificatif.Image = Image.FromFile(localPath);
                     }
-                    catch (Exception ex)
+                    else
                     {
-                        Console.WriteLine($"Erreur lors du chargement de l'image: {ex.Message}");
                         picJustificatif.Image = null;
+                        picJustificatif.BackColor = Color.LightGray;
                     }
-
-                    // Activer/désactiver les boutons d'action selon le statut
-                    EnableActionButtons(selectedRequest.Status == "En attente");
+                    
+                    Cursor.Current = Cursors.Default;
+                }
+                catch (Exception ex)
+                {
+                    Cursor.Current = Cursors.Default;
+                    Console.WriteLine($"Erreur téléchargement justificatif: {ex.Message}");
+                    picJustificatif.Image = null;
+                    picJustificatif.BackColor = Color.LightGray;
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erreur lors de l'affichage des détails: {ex.Message}",
-                    "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
+            EnableActionButtons(selectedRequest.Status == "En attente");
         }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show($"Erreur lors de l'affichage des détails: {ex.Message}",
+            "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    }
+}
 
         private void EnableActionButtons(bool enable)
         {

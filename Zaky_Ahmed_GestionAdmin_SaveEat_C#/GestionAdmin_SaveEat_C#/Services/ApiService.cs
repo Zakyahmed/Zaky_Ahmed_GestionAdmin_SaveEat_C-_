@@ -304,6 +304,38 @@ namespace GestionAdmin_SaveEat_C_.Services
 
         #endregion
 
+        // Ajouter ces méthodes dans la classe ApiService
+public async Task<byte[]> DownloadJustificatifAsync(int justificatifId)
+{
+    var endpoint = $"justificatifs/{justificatifId}/download";
+    
+    Console.WriteLine($"Downloading file from: {_client.BaseAddress}{endpoint}");
+    
+    var response = await _client.GetAsync(endpoint);
+    
+    if (response.IsSuccessStatusCode)
+    {
+        return await response.Content.ReadAsByteArrayAsync();
+    }
+    
+    throw new Exception($"Erreur lors du téléchargement: {response.StatusCode}");
+}
+
+public async Task<string> DownloadAndSaveJustificatifAsync(int justificatifId, string fileName)
+{
+    var fileData = await DownloadJustificatifAsync(justificatifId);
+    
+    // Créer un dossier temporaire
+    var tempPath = Path.Combine(Path.GetTempPath(), "SaveEat_Justificatifs");
+    Directory.CreateDirectory(tempPath);
+    
+    // Sauvegarder le fichier
+    var filePath = Path.Combine(tempPath, fileName);
+    await File.WriteAllBytesAsync(filePath, fileData);
+    
+    return filePath;
+}
+
         #region Gestion des utilisateurs
 
         // Récupération de la liste des utilisateurs
@@ -517,24 +549,26 @@ namespace GestionAdmin_SaveEat_C_.Services
                     }
 
                     var justificatif = justificatifs.FirstOrDefault(j =>
-                        j.UtilisateurId == restaurant.UtilisateurId &&
-                        j.Statut == "en_attente");
+    j.UtilisateurId == restaurant.UtilisateurId &&
+    j.Statut == "en_attente");
 
-                    validationRequests.Add(new ValidationRequest
-                    {
-                        Id = restaurant.Id,
-                        Nom = restaurant.Nom ?? "Sans nom",
-                        Type = "Restaurant",
-                        Adresse = restaurant.Adresse ?? "",
-                        Localite = restaurant.Localite ?? "",
-                        Canton = restaurant.Canton ?? "",
-                        Email = restaurant.Utilisateur?.Email ?? "",
-                        DateDemande = restaurant.CreatedAt,
-                        Status = "En attente",
-                        JustificatifPath = justificatif?.CheminFichier,
-                        CreatedAt = restaurant.CreatedAt,
-                        UpdatedAt = restaurant.UpdatedAt
-                    });
+validationRequests.Add(new ValidationRequest
+{
+    Id = restaurant.Id,
+    Nom = restaurant.Nom ?? "Sans nom",
+    Type = "Restaurant",
+    Adresse = restaurant.Adresse ?? "",
+    Localite = restaurant.Localite ?? "",
+    Canton = restaurant.Canton ?? "",
+    Email = restaurant.Utilisateur?.Email ?? "",
+    DateDemande = restaurant.CreatedAt,
+    Status = "En attente",
+    JustificatifPath = justificatif?.CheminFichier,
+    JustificatifId = justificatif?.Id ?? 0,  // AJOUTER CETTE LIGNE
+    JustificatifFileName = justificatif?.NomFichier, // AJOUTER CETTE LIGNE
+    CreatedAt = restaurant.CreatedAt,
+    UpdatedAt = restaurant.UpdatedAt
+});
                 }
 
                 // Ajouter les associations non validées

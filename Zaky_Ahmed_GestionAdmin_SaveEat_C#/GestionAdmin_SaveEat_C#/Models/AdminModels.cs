@@ -74,6 +74,16 @@ namespace GestionAdmin_SaveEat_C_.Models
 
         [JsonProperty("roles")]
         public List<string> Roles { get; set; }  // Laravel renvoie directement des strings
+
+          [JsonProperty("justificatif_id")]
+    public int JustificatifId { get; set; }
+    
+    [JsonProperty("justificatif_filename")]
+    public string JustificatifFileName { get; set; }
+    
+    // Propriété locale non sérialisée
+    [JsonIgnore]
+    public string LocalJustificatifPath { get; set; }
     }
 
     public class Utilisateur
